@@ -1,0 +1,91 @@
+@font-face {
+    font-family: RubikRegular;
+    src: url(fonts/Rubik-Regular.woff2);
+}
+
+@font-face {
+    font-family: ChunkfiveRegular;
+    src: url(fonts/ChunkFive-Regular.woff2);
+}
+
+@font-face {
+    font-family: OutfitRegular;
+    src: url(fonts/Outfit-Regular.woff2);
+}
+
+@font-face {
+    font-family: OutfitThin;
+    src: url(fonts/Outfit-Thin.woff2);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #afbb98;
+}
+
+h1 {
+    color: #dfc078;
+    letter-spacing: 3pt;
+    background-color: #05B2DC;
+    font-size: 3em;
+    font-family: ChunkfiveRegular;
+}
+
+h2 {
+    color: #05B2DC;
+    font-style: italic;
+    background-color: #dfc078;
+    font-size: 2em;
+    font-family: RubikRegular;
+    font-weight: bold;
+    letter-spacing: 2pt;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+a:link {
+    color: #B084CC;
+    font-family: OutfitRegular;
+}
+
+a:visited {
+    color: #d3b8d0;
+}
+
+a:hover { 
+    font-family: ChunkfiveRegular;
+    font-size: 1.2em;
+}
+
+p {
+    color: #a5c7b9;
+    font-family: OutfitRegular;
+    padding: 5px;
+}
+
+#container {
+    width: 960px;
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+.caption {
+    font-size: 0.8rem;
+    background-color: #087CA7;
+}
+
+.sypnosis {
+    font-size: 1.5rem;
+    background-color: #04416f;
+}
+
+ul {
+    font-size: 1.5em;
+}
